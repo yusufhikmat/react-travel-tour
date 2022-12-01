@@ -1,0 +1,46 @@
+const FooterData = [
+    {
+        title:'Project',
+        link1:'Project',
+        link2:'Project',
+        link3:'Project',
+        link4:'Project',
+    },
+        {
+        title:'Project',
+        link1:'Project',
+        link2:'Project',
+        link3:'Project',
+        link4:'Project',
+    },
+        {
+        title:'Project',
+        link1:'Project',
+        link2:'Project',
+        link3:'Project',
+        link4:'Project',
+    },
+        {
+        title:'Project',
+        link1:'Project',
+        link2:'Project',
+        link3:'Project',
+        link4:'Project',
+    },
+    {
+        title:'Project',
+        link1:'Project',
+        link2:'Project',
+        link3:'Project',
+        link4:'Project',
+    },
+    {
+        title:'Project',
+        link1:'Project',
+        link2:'Project',
+        link3:'Project',
+        link4:'Project',
+    },
+
+]
+export default FooterData

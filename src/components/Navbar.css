@@ -1,0 +1,80 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 70px;
+    width:95%;
+    text-align: center;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    border-radius: 10px;
+    z-index:999;
+    top:30px;
+    left:50%;
+    transform: translate(-50%);
+    background-color: #fff;
+   
+}
+.Navbar-menu{
+    display:flex;
+    margin-right: 80px;
+}
+
+.Navbar-lists{
+    list-style: none;
+    display:inline-block;
+}
+.Navbar-link{
+    text-decoration: none;
+    display:block;
+    padding:10px 20px;
+    font-size: 16px;
+    color:green;
+}
+.Navbar-link:hover{
+    background-color: green;
+    color:white;
+    transition: all 2s ease-in-out;
+}
+.Dropdown-Icons{
+    display:none;
+    margin-left: auto;
+}
+@media screen  and (max-width:760px){
+    .Navbar{
+        position:relative;
+        transition:0.5 ease-in-out;
+        
+    }
+    .Navbar.responsive{
+        height:100vh;
+
+    }
+    .Navbar.responsive .Navbar-menu{
+        position: absolute;
+        display:flex;
+        top:100px;
+        flex-direction: column;
+        align-items: center;
+        left:0;
+        right:0;
+        width:100%;
+        opacity:1;
+        color:#fff;
+        align-items: stretch;
+        background-color: green;
+       
+    }
+    .Navbar.responsive .Navbar-menu .Navbar-link{
+        margin:15px 0px;
+        color:#fff;
+        display:block;
+    }
+
+    .Navbar-menu{
+        display:none;
+    }
+    .Dropdown-Icons{
+        display:block;
+    }
+}
